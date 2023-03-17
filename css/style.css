@@ -1,0 +1,47 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+a {
+    text-decoration: none;
+}
+
+/* Cabeçalho ________________________________________________________________________*/
+
+header {
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 4px solid #0f642f;
+}
+
+/* Maind Galeria de Produtos ________________________________________________________*/
+
+.container {
+    
+    background-color: #eee;
+    min-height: 30vh;
+    padding: 50px;
+}
+
+/* Tênis ________________________________________________________*/
+
+.card {
+    width: 31%;
+    display: inline-block;
+    border: 2px solid gray;
+}
+
+/* Footer Rodapé ________________________________________________________*/
+
+footer {
+    background-color: #3db36b;
+    color: #fff;
+    border-top: 3px solid #0f642f;
+    padding: 35px;
+}
+
+
+
+
+
+

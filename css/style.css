@@ -1,109 +1,105 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
+* {margin: 0; padding: 0; box-sizing: border-box;} /* zerar formação do CSS */
 
-a {
-    text-decoration: none;
-}
-
-/* Cabeçalho ________________________________________________________________________*/
+/* Cabeçalho ____________________________________________________________________________________*/
 
 header {
-    background-color: #3db36b;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    border-bottom: 4px solid #0f642f;
+    background-color: #3db36b; /* backgroud-color define a cor de fundo */
+    color: #fff; /* define a cor das letras */
+    padding: 15px; /* define espaçamento interno do conteudo da div */
+    text-align: center; /* Center - centraliza o texto */
+    border-bottom: 4px solid #0f642f; /* define uma borda inferior para o conteudo */
 }
 
-/* Maind Galeria de Produtos ________________________________________________________*/
+/* Maind Galeria de Produtos ____________________________________________________________________*/
 
 .container {
     
-    background-color: #eee;
-    min-height: 30vh;
-    padding: 50px;
+    background-color: #eee; /* backgroud-color define a cor de fundo */
+    min-height: 30vh; /* define uma altura minima para o conteudo */
+    padding: 50px; /* define espaçamento interna do conteudo da div */
 }
 
-/* Tênis ________________________________________________________*/
+/* Tênis ________________________________________________________________________________________*/
 
 .card {
     width: 31%;
-    display: inline-block;
-    margin: 1% 1%;
-    padding: 15px;
-    margin-bottom: 10px;
+    display: inline-block; /* define o alinhamento do conteudo em linhas ou colunas */
+    margin: 1% 1%; /* define a margem interna do conteudo da div */
+    padding: 15px; /* define espaçamento interna do conteudo da div */
+    margin-bottom: 10px; /* define uma margem inferir para o conteudo */
 }
 
-/* Trabalhando as imagens */
+/* Trabalhando as imagens _______________________________________________________________________*/
 
 .product-image {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 10px;
-    background-position: center;
-    background-size: cover;
+    height: 300px; /* define a altura do conteudo */
+    width: 100%; /* define a largura do conteudo */
+    margin-bottom: 10px; /* define a margem inferior do conteudo */
+    background-position: center; /* define a posição da imagem */
+    background-size: cover; /* define a visualização da imagem ZOOM e etc*/
 }
 
 #img-1 {
-    background-image: url('../img/tenis1.jpg');
+    background-image: url('../img/tenis1.jpg'); /* insere uma imagem */
 }
 
 #img-2 {
-    background-image: url('../img/tenis2.jpg');
+    background-image: url('../img/tenis2.jpg'); /* insere uma imagem */
 }
 
 #img-3 {
-    background-image: url('../img/tenis3.jpg');
+    background-image: url('../img/tenis3.jpg'); /* insere uma imagem */
 }
 
 #img-4 {
-    background-image: url('../img/tenis4.jpg');
+    background-image: url('../img/tenis4.jpg'); /* insere uma imagem */
 }
 
 #img-5 {
-    background-image: url('../img/tenis5.jpg');
+    background-image: url('../img/tenis5.jpg'); /* insere uma imagem */
 }
 
 #img-6 {
-    background-image: url('../img/tenis6.jpg');
+    background-image: url('../img/tenis6.jpg'); /* insere uma imagem */
 }
 
 h3 {
-    margin-bottom: 10px;
-    color: #3db36b;
-    border-left: 5px solid #0f642f;
-    padding-left: 7px;
-    font-size: 24px;
+    margin-bottom: 10px; /* define a margem da parte inferior */
+    color: #3db36b; /* define a cor das letras */
+    border-left: 5px solid #0f642f; /* coloca bor da a direta */
+    padding-left: 7px; /* coloca espaçamento do conteudo a direita */
+    font-size: 24px; /* define o tamanho da letra */
 } 
 
 .bold {
-    font-weight: bold;
+    font-weight: bold; /* define a formação da do conteudo (negrito,italico e etc) */
 }
 
 .btn {
-    display: block;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #3db36b;
-    color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    transition: 1s;
+    display: block;  /* define o alinhamento do conteudo em linhas ou colunas */
+    width: 100%; /* define a largura do conteudo */
+    text-align: center; /* Center - centraliza o texto */
+    text-decoration: none; /* None - retira a formatação "_" do link */
+    text-transform: uppercase; /* Uppercase deixa todas letras em maiusculas */
+    background-color: #3db36b; /* backgroud-colo define a cor de fundo */
+    color: #fff; /* define a cor das letras */
+    padding: 15px; /* define espaçamento interno do conteudo da div */
+    border-radius: 5px; /* define o arredondamente das borda da div */
+    transition: 1s; /* faz a transção da formatação realizada do conteudo definido pelo tempo aplicado */
 }
 
 .btn:hover {
-    background-color: #0b4722;
+    background-color: #0b4722; /* backgroud-colo define a cor de fundo */
 
 }
 
-/* Footer Rodapé ________________________________________________________*/
+/* Footer Rodapé __________________________________________________________________________________*/
 
 footer {
-    background-color: #3db36b;
-    color: #fff;
-    border-top: 3px solid #0f642f;
-    padding: 35px;
+    background-color: #3db36b; /* backgroud-colo define a cor de fundo */
+    color: #fff; /* define a cor das letras */
+    border-top: 3px solid #0f642f; /* define a barda da parte superior*/
+    padding: 35px; /* define espaçamento interna do conteudo da div */
 }
 
 

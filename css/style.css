@@ -36,31 +36,31 @@ header {
     width: 100%; /* define a largura do conteudo */
     margin-bottom: 10px; /* define a margem inferior do conteudo */
     background-position: center; /* define a posição da imagem */
-    background-size: cover; /* define a visualização da imagem ZOOM e etc*/
+    background-size: contain; /* define a visualização da imagem ZOOM e etc*/
 }
 
-#img-1 {
-    background-image: url('../img/tenis1.jpg'); /* insere uma imagem */
+#Golf-R {
+    background-image: url('../img/Golf-R.jpg'); /* insere uma imagem */
 }
 
-#img-2 {
-    background-image: url('../img/tenis2.jpg'); /* insere uma imagem */
+#Jetta {
+    background-image: url('../img/Jetta.jpg'); /* insere uma imagem */
 }
 
-#img-3 {
-    background-image: url('../img/tenis3.jpg'); /* insere uma imagem */
+#Stilo {
+    background-image: url('../img/Stilo.jpg'); /* insere uma imagem */
 }
 
-#img-4 {
-    background-image: url('../img/tenis4.jpg'); /* insere uma imagem */
+#Camaro {
+    background-image: url('../img/Camaro.jfif'); /* insere uma imagem */
 }
 
-#img-5 {
-    background-image: url('../img/tenis5.jpg'); /* insere uma imagem */
+#Rangerover{
+    background-image: url('../img/Rangerover.jfif'); /* insere uma imagem */
 }
 
-#img-6 {
-    background-image: url('../img/tenis6.jpg'); /* insere uma imagem */
+#Landrover {
+    background-image: url('../img/Landrover.jfif'); /* insere uma imagem */
 }
 
 h3 {
